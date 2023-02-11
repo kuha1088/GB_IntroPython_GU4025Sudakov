@@ -19,7 +19,7 @@ def get_user_number(msg, count):
     user_input = int(input())
 
     result = (user_input, count)
-    return result;
+    return result
 
 def list_maker(userNumber, msg, count):
     
