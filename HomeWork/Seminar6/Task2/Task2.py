@@ -30,7 +30,7 @@ message_for_user_3 = 'Укажите максимально возможное �
 message_for_user_4 = 'Укажите нижнюю границу поиска элементов массива: '
 message_for_user_5 = 'Укажите верхнюю границу поиска элементов массива: '
 
-*list_of_messages, = message_for_user_1, message_for_user_2, message_for_user_3
+list_of_messages = message_for_user_1, message_for_user_2, message_for_user_3
 array_parameters = get_user_data(messages = list_of_messages)
 
 (checking_arr_length, checking_arr_min, checking_arr_max) = array_parameters
@@ -42,7 +42,7 @@ checking_array = list_maker(arr_length = checking_arr_length,\
 print()
 print(f'Получен массив: {str(checking_array)[1:-1]}')
 
-*list_of_messages, = message_for_user_4, message_for_user_5
+list_of_messages = message_for_user_4, message_for_user_5
 checking_array_search_range = get_user_data(messages = list_of_messages)
 
 print()
