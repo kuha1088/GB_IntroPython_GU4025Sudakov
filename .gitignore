@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Specific files
+Seminars\Seminar9\taxi_dataset_with_predictions.csv
+Seminars\Seminar9\processed_data.csv
