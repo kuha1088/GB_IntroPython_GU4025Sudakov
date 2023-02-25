@@ -398,5 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Specific files
-Seminars\Seminar9\taxi_dataset_with_predictions.csv
-Seminars\Seminar9\processed_data.csv
+taxi_dataset_with_predictions.csv
+processed_data.csv
